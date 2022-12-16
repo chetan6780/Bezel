@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <AppContainer>
         <Switch>
           <Route exact path="/" component={Main} />

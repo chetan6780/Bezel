@@ -9,7 +9,6 @@ let socketList = {};
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-
 // Route
 app.get('/ping', (req, res) => {
   res
@@ -104,5 +103,5 @@ io.on('connection', (socket) => {
 });
 
 http.listen(PORT, () => {
-  console.log('Connected : 3001');
+  console.log(`Server is running on port ${PORT}`);
 });
