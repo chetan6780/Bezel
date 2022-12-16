@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chetan6780/BezelRTC.git"
+    "url": "git+hhttps://github.com/chetan6780/bezel.git"
   },
   "author": "Chetan Patil",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chetan6780/BezelRTC/issues"
+    "url": "hhttps://github.com/chetan6780/bezel/issues"
   },
-  "homepage": "https://github.com/chetan6780/BezelRTC#readme",
+  "homepage": "hhttps://github.com/chetan6780/bezel#readme",
   "devDependencies": {
     "concurrently": "^7.6.0"
   }
